@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbyssRium Macro(Csharp)", "AbyssRium Macro(Csharp)\AbyssRium Macro(Csharp).csproj", "{7875F41C-F63D-40B9-A500-E0DB3B8E527B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenCapture", "ScreenCapture\ScreenCapture.csproj", "{93F39770-365F-4235-8409-6BE065C594AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7875F41C-F63D-40B9-A500-E0DB3B8E527B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7875F41C-F63D-40B9-A500-E0DB3B8E527B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7875F41C-F63D-40B9-A500-E0DB3B8E527B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7875F41C-F63D-40B9-A500-E0DB3B8E527B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F39770-365F-4235-8409-6BE065C594AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F39770-365F-4235-8409-6BE065C594AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F39770-365F-4235-8409-6BE065C594AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F39770-365F-4235-8409-6BE065C594AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
