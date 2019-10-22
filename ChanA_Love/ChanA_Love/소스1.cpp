@@ -87,14 +87,14 @@ public:
 	Image* image[2];
 	UINT index;
 	LONG screenX, screenY;
-	bool AxisX = true;
+	bool AxisX;
+	bool IsJumping;
 	ChanA() {
 		GdiplusStartupInput gdiplusStartupInput;
 		GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 		image[0] = new Image(L"cksdk_01.png");
 		image[1] = new Image(L"cksdk_02.png");
 		index = 0;
-
 		width = image[0]->GetWidth();
 		height = image[0]->GetHeight();
 		dx = dy = 0;
@@ -102,6 +102,9 @@ public:
 		screenY = GetSystemMetrics(SM_CYSCREEN);
 		x = 0;
 		y = screenY-height;
+        
+        AxisX = true;
+        IsJumping = false;
 	}
 
 	~ChanA() {
@@ -109,7 +112,7 @@ public:
 		delete image[1];
 		GdiplusShutdown(gdiplusToken);
 	}
-	bool IsJumping = false;
+
 	void Update() {
 		byte key[256];
 		GetKeyboardState(key);
